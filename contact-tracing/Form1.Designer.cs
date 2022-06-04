@@ -49,7 +49,7 @@ namespace contact_tracing
             // NameLabel
             // 
             this.NameLabel.AutoSize = true;
-            this.NameLabel.Location = new System.Drawing.Point(34, 58);
+            this.NameLabel.Location = new System.Drawing.Point(12, 21);
             this.NameLabel.Name = "NameLabel";
             this.NameLabel.Size = new System.Drawing.Size(38, 13);
             this.NameLabel.TabIndex = 0;
@@ -58,7 +58,7 @@ namespace contact_tracing
             // ContactNumLabel
             // 
             this.ContactNumLabel.AutoSize = true;
-            this.ContactNumLabel.Location = new System.Drawing.Point(15, 88);
+            this.ContactNumLabel.Location = new System.Drawing.Point(11, 69);
             this.ContactNumLabel.Name = "ContactNumLabel";
             this.ContactNumLabel.Size = new System.Drawing.Size(57, 13);
             this.ContactNumLabel.TabIndex = 1;
@@ -67,7 +67,7 @@ namespace contact_tracing
             // AddressLabel
             // 
             this.AddressLabel.AutoSize = true;
-            this.AddressLabel.Location = new System.Drawing.Point(22, 118);
+            this.AddressLabel.Location = new System.Drawing.Point(11, 171);
             this.AddressLabel.Name = "AddressLabel";
             this.AddressLabel.Size = new System.Drawing.Size(50, 13);
             this.AddressLabel.TabIndex = 2;
@@ -76,7 +76,7 @@ namespace contact_tracing
             // DateLabel
             // 
             this.DateLabel.AutoSize = true;
-            this.DateLabel.Location = new System.Drawing.Point(34, 146);
+            this.DateLabel.Location = new System.Drawing.Point(296, 21);
             this.DateLabel.Name = "DateLabel";
             this.DateLabel.Size = new System.Drawing.Size(34, 13);
             this.DateLabel.TabIndex = 3;
@@ -85,7 +85,7 @@ namespace contact_tracing
             // TimeInLabel
             // 
             this.TimeInLabel.AutoSize = true;
-            this.TimeInLabel.Location = new System.Drawing.Point(26, 177);
+            this.TimeInLabel.Location = new System.Drawing.Point(296, 69);
             this.TimeInLabel.Name = "TimeInLabel";
             this.TimeInLabel.Size = new System.Drawing.Size(46, 13);
             this.TimeInLabel.TabIndex = 4;
@@ -94,7 +94,7 @@ namespace contact_tracing
             // TimeOutLabel
             // 
             this.TimeOutLabel.AutoSize = true;
-            this.TimeOutLabel.Location = new System.Drawing.Point(18, 204);
+            this.TimeOutLabel.Location = new System.Drawing.Point(296, 119);
             this.TimeOutLabel.Name = "TimeOutLabel";
             this.TimeOutLabel.Size = new System.Drawing.Size(54, 13);
             this.TimeOutLabel.TabIndex = 5;
@@ -102,51 +102,51 @@ namespace contact_tracing
             // 
             // NameTxtBox
             // 
-            this.NameTxtBox.Location = new System.Drawing.Point(75, 55);
+            this.NameTxtBox.Location = new System.Drawing.Point(12, 37);
             this.NameTxtBox.Name = "NameTxtBox";
-            this.NameTxtBox.Size = new System.Drawing.Size(383, 21);
+            this.NameTxtBox.Size = new System.Drawing.Size(254, 21);
             this.NameTxtBox.TabIndex = 6;
             // 
             // ContactNumTxtBox
             // 
-            this.ContactNumTxtBox.Location = new System.Drawing.Point(75, 85);
+            this.ContactNumTxtBox.Location = new System.Drawing.Point(12, 85);
             this.ContactNumTxtBox.Name = "ContactNumTxtBox";
-            this.ContactNumTxtBox.Size = new System.Drawing.Size(383, 21);
+            this.ContactNumTxtBox.Size = new System.Drawing.Size(254, 21);
             this.ContactNumTxtBox.TabIndex = 7;
             // 
             // AddressTxtBox
             // 
-            this.AddressTxtBox.Location = new System.Drawing.Point(75, 115);
+            this.AddressTxtBox.Location = new System.Drawing.Point(11, 187);
             this.AddressTxtBox.Name = "AddressTxtBox";
-            this.AddressTxtBox.Size = new System.Drawing.Size(383, 21);
+            this.AddressTxtBox.Size = new System.Drawing.Size(470, 21);
             this.AddressTxtBox.TabIndex = 8;
             // 
             // DateTxtBox
             // 
-            this.DateTxtBox.Location = new System.Drawing.Point(75, 143);
+            this.DateTxtBox.Location = new System.Drawing.Point(296, 37);
             this.DateTxtBox.Name = "DateTxtBox";
-            this.DateTxtBox.Size = new System.Drawing.Size(200, 21);
+            this.DateTxtBox.Size = new System.Drawing.Size(185, 21);
             this.DateTxtBox.TabIndex = 9;
             // 
             // TimeInTxtBox
             // 
-            this.TimeInTxtBox.Location = new System.Drawing.Point(75, 174);
+            this.TimeInTxtBox.Location = new System.Drawing.Point(296, 85);
             this.TimeInTxtBox.Name = "TimeInTxtBox";
-            this.TimeInTxtBox.Size = new System.Drawing.Size(200, 21);
+            this.TimeInTxtBox.Size = new System.Drawing.Size(185, 21);
             this.TimeInTxtBox.TabIndex = 10;
             // 
             // TimeOutTxtBox
             // 
-            this.TimeOutTxtBox.Location = new System.Drawing.Point(75, 201);
+            this.TimeOutTxtBox.Location = new System.Drawing.Point(296, 135);
             this.TimeOutTxtBox.Name = "TimeOutTxtBox";
-            this.TimeOutTxtBox.Size = new System.Drawing.Size(200, 21);
+            this.TimeOutTxtBox.Size = new System.Drawing.Size(185, 21);
             this.TimeOutTxtBox.TabIndex = 11;
             // 
             // EnterButton
             // 
-            this.EnterButton.Location = new System.Drawing.Point(348, 257);
+            this.EnterButton.Location = new System.Drawing.Point(12, 228);
             this.EnterButton.Name = "EnterButton";
-            this.EnterButton.Size = new System.Drawing.Size(110, 52);
+            this.EnterButton.Size = new System.Drawing.Size(469, 52);
             this.EnterButton.TabIndex = 12;
             this.EnterButton.Text = "Enter";
             this.EnterButton.UseVisualStyleBackColor = true;
@@ -155,7 +155,7 @@ namespace contact_tracing
             // AgeLabel
             // 
             this.AgeLabel.AutoSize = true;
-            this.AgeLabel.Location = new System.Drawing.Point(38, 232);
+            this.AgeLabel.Location = new System.Drawing.Point(11, 119);
             this.AgeLabel.Name = "AgeLabel";
             this.AgeLabel.Size = new System.Drawing.Size(30, 13);
             this.AgeLabel.TabIndex = 13;
@@ -163,16 +163,16 @@ namespace contact_tracing
             // 
             // AgeTxtBox
             // 
-            this.AgeTxtBox.Location = new System.Drawing.Point(75, 229);
+            this.AgeTxtBox.Location = new System.Drawing.Point(11, 135);
             this.AgeTxtBox.Name = "AgeTxtBox";
-            this.AgeTxtBox.Size = new System.Drawing.Size(100, 21);
+            this.AgeTxtBox.Size = new System.Drawing.Size(125, 21);
             this.AgeTxtBox.TabIndex = 14;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(493, 338);
+            this.ClientSize = new System.Drawing.Size(493, 292);
             this.Controls.Add(this.AgeTxtBox);
             this.Controls.Add(this.AgeLabel);
             this.Controls.Add(this.EnterButton);
@@ -189,7 +189,7 @@ namespace contact_tracing
             this.Controls.Add(this.ContactNumLabel);
             this.Controls.Add(this.NameLabel);
             this.Name = "Form1";
-            this.Text = "Form2";
+            this.Text = "Contact Tracing";
             this.ResumeLayout(false);
             this.PerformLayout();
 
