@@ -17,8 +17,17 @@ namespace contact_tracing
         }
         private void buttonClick(object sender, EventArgs e)
         {
+            //Following the format you showed earlier
+
             StreamWriter file = new StreamWriter(@"C:\Users\user\Documents\Contacts Traced\contacts.txt",true);
-            file.WriteLine
+            file.WriteLine("Name: " + NameTxtBox.Text);
+            file.WriteLine("Contact#: " + ContactNumTxtBox.Text);
+            file.WriteLine("Address: " + AddressTxtBox.Text);
+            file.WriteLine("Date: " + DateTxtBox.Text);
+            file.WriteLine("Time In: " + TimeInTxtBox.Text);
+            file.WriteLine("Time Out: " + TimeOutTxtBox.Text);
+            file.Close();
+
         }
     }
 }

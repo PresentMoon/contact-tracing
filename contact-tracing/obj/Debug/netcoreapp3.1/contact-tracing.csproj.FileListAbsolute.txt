@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\contact-tracing\contact-tracing\bin\Debug\netcoreapp3.1\contact-tracing.exe
+C:\Users\user\source\repos\contact-tracing\contact-tracing\bin\Debug\netcoreapp3.1\contact-tracing.deps.json
+C:\Users\user\source\repos\contact-tracing\contact-tracing\bin\Debug\netcoreapp3.1\contact-tracing.runtimeconfig.json
+C:\Users\user\source\repos\contact-tracing\contact-tracing\bin\Debug\netcoreapp3.1\contact-tracing.runtimeconfig.dev.json
+C:\Users\user\source\repos\contact-tracing\contact-tracing\bin\Debug\netcoreapp3.1\contact-tracing.dll
+C:\Users\user\source\repos\contact-tracing\contact-tracing\bin\Debug\netcoreapp3.1\contact-tracing.pdb
+C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact_tracing.Form1.resources
+C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.csproj.GenerateResource.cache
+C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.AssemblyInfo.cs
+C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.dll
+C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.pdb
+C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.genruntimeconfig.cache

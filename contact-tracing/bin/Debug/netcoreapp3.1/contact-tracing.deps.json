@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "contact-tracing/1.0.0": {
+        "runtime": {
+          "contact-tracing.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "contact-tracing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
