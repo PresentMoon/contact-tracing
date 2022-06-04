@@ -42,6 +42,8 @@ namespace contact_tracing
             this.TimeInTxtBox = new System.Windows.Forms.TextBox();
             this.TimeOutTxtBox = new System.Windows.Forms.TextBox();
             this.EnterButton = new System.Windows.Forms.Button();
+            this.AgeLabel = new System.Windows.Forms.Label();
+            this.AgeTxtBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // NameLabel
@@ -150,11 +152,29 @@ namespace contact_tracing
             this.EnterButton.UseVisualStyleBackColor = true;
             this.EnterButton.Click += new System.EventHandler(this.buttonClick);
             // 
+            // AgeLabel
+            // 
+            this.AgeLabel.AutoSize = true;
+            this.AgeLabel.Location = new System.Drawing.Point(38, 232);
+            this.AgeLabel.Name = "AgeLabel";
+            this.AgeLabel.Size = new System.Drawing.Size(30, 13);
+            this.AgeLabel.TabIndex = 13;
+            this.AgeLabel.Text = "Age:";
+            // 
+            // AgeTxtBox
+            // 
+            this.AgeTxtBox.Location = new System.Drawing.Point(75, 229);
+            this.AgeTxtBox.Name = "AgeTxtBox";
+            this.AgeTxtBox.Size = new System.Drawing.Size(100, 21);
+            this.AgeTxtBox.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(493, 338);
+            this.Controls.Add(this.AgeTxtBox);
+            this.Controls.Add(this.AgeLabel);
             this.Controls.Add(this.EnterButton);
             this.Controls.Add(this.TimeOutTxtBox);
             this.Controls.Add(this.TimeInTxtBox);
@@ -190,5 +210,7 @@ namespace contact_tracing
         private System.Windows.Forms.TextBox TimeInTxtBox;
         private System.Windows.Forms.TextBox TimeOutTxtBox;
         private System.Windows.Forms.Button EnterButton;
+        private System.Windows.Forms.Label AgeLabel;
+        private System.Windows.Forms.TextBox AgeTxtBox;
     }
 }

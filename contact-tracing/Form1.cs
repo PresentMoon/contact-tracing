@@ -17,7 +17,7 @@ namespace contact_tracing
         }
         private void buttonClick(object sender, EventArgs e)
         {
-            //Following the format you showed earlier
+            //Following the format sir showed earlier
 
             StreamWriter file = new StreamWriter(@"C:\Users\user\Documents\Contacts Traced\contacts.txt",true);
             file.WriteLine("Name: " + NameTxtBox.Text);
@@ -26,8 +26,9 @@ namespace contact_tracing
             file.WriteLine("Date: " + DateTxtBox.Text);
             file.WriteLine("Time In: " + TimeInTxtBox.Text);
             file.WriteLine("Time Out: " + TimeOutTxtBox.Text);
+            file.WriteLine("Age: " + AgeTxtBox.Text);
             file.Close();
-
+            this.Close();
         }
     }
 }
