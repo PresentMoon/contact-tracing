@@ -150,7 +150,7 @@ namespace contact_tracing
             this.EnterButton.TabIndex = 12;
             this.EnterButton.Text = "Enter";
             this.EnterButton.UseVisualStyleBackColor = true;
-            this.EnterButton.Click += new System.EventHandler(this.buttonClick);
+            this.EnterButton.Click += new System.EventHandler(this.ButtonClick);
             // 
             // AgeLabel
             // 
@@ -189,7 +189,9 @@ namespace contact_tracing
             this.Controls.Add(this.ContactNumLabel);
             this.Controls.Add(this.NameLabel);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contact Tracing";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -15,7 +15,7 @@ namespace contact_tracing
         {
             InitializeComponent();
         }
-        private void buttonClick(object sender, EventArgs e)
+        private void ButtonClick(object sender, EventArgs e)
         {
             //Following the format sir showed earlier
 
@@ -29,6 +29,11 @@ namespace contact_tracing
             file.WriteLine("Age: " + AgeTxtBox.Text);
             file.Close();
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Are You Vaccinated ?");
         }
     }
 }
