@@ -14,3 +14,4 @@ C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3
 C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.dll
 C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.pdb
 C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact-tracing.genruntimeconfig.cache
+C:\Users\user\source\repos\contact-tracing\contact-tracing\obj\Debug\netcoreapp3.1\contact_tracing.Form2.resources

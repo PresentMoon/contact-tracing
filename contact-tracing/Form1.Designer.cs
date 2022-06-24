@@ -44,6 +44,12 @@ namespace contact_tracing
             this.EnterButton = new System.Windows.Forms.Button();
             this.AgeLabel = new System.Windows.Forms.Label();
             this.AgeTxtBox = new System.Windows.Forms.TextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.DataGrid = new System.Windows.Forms.DataGridView();
+            this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // NameLabel
@@ -168,11 +174,46 @@ namespace contact_tracing
             this.AgeTxtBox.Size = new System.Drawing.Size(125, 21);
             this.AgeTxtBox.TabIndex = 14;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(826, 24);
+            this.menuStrip1.TabIndex = 15;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewerToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // viewerToolStripMenuItem
+            // 
+            this.viewerToolStripMenuItem.Name = "viewerToolStripMenuItem";
+            this.viewerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.viewerToolStripMenuItem.Text = "Viewer";
+            this.viewerToolStripMenuItem.Click += new System.EventHandler(this.viewerToolStripMenuItem_Click);
+            // 
+            // DataGrid
+            // 
+            this.DataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGrid.Location = new System.Drawing.Point(497, 27);
+            this.DataGrid.Name = "DataGrid";
+            this.DataGrid.RowTemplate.Height = 23;
+            this.DataGrid.Size = new System.Drawing.Size(317, 279);
+            this.DataGrid.TabIndex = 16;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(493, 292);
+            this.ClientSize = new System.Drawing.Size(826, 318);
+            this.Controls.Add(this.DataGrid);
             this.Controls.Add(this.AgeTxtBox);
             this.Controls.Add(this.AgeLabel);
             this.Controls.Add(this.EnterButton);
@@ -188,10 +229,15 @@ namespace contact_tracing
             this.Controls.Add(this.AddressLabel);
             this.Controls.Add(this.ContactNumLabel);
             this.Controls.Add(this.NameLabel);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contact Tracing";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,5 +260,9 @@ namespace contact_tracing
         private System.Windows.Forms.Button EnterButton;
         private System.Windows.Forms.Label AgeLabel;
         private System.Windows.Forms.TextBox AgeTxtBox;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewerToolStripMenuItem;
+        private System.Windows.Forms.DataGridView DataGrid;
     }
 }

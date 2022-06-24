@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,6 +12,7 @@ namespace contact_tracing
 {
     public partial class Form1 : Form
     {
+        ArrayList arlist = new ArrayList();
         public Form1()
         {
             InitializeComponent();
@@ -28,12 +30,34 @@ namespace contact_tracing
             file.WriteLine("Time Out: " + TimeOutTxtBox.Text);
             file.WriteLine("Age: " + AgeTxtBox.Text);
             file.Close();
-            this.Close();
+            //this.Close();
+
+            arlist.Add(NameTxtBox.Text);
+            arlist.Add(ContactNumTxtBox.Text);
+            arlist.Add(AddressTxtBox.Text);
+            arlist.Add(DateTxtBox.Text);
+            arlist.Add(TimeInTxtBox.Text);
+            arlist.Add(TimeOutTxtBox.Text);
+            arlist.Add(AgeTxtBox.Text);
+            DataGrid.Columns.Add("Name", "Name");
+            DataGrid.Columns.Add("Contact#", "Contact#");
+            DataGrid.Columns.Add("Address", "Address");
+            DataGrid.Columns.Add("Date", "Date");
+            DataGrid.Columns.Add("TimeIn", "TimeIn");
+            DataGrid.Columns.Add("TimeOut", "TimeOut");
+            DataGrid.Columns.Add("Age", "Age");
+            DataGrid.Rows.Add(arlist.ToArray());
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("Are You Vaccinated ?");
+        }
+
+        private void viewerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 frm2 = new Form2();
+            frm2.Show();
         }
     }
 }
